@@ -6,6 +6,7 @@ ruby '2.2.2'
 
 	gem 'sinatra'
 	gem 'shotgun'
+	gem 'pg'
 
 group :test do
 
