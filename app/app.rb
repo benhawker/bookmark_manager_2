@@ -4,7 +4,7 @@ require_relative './models/link'
 
 class App < Sinatra::Base
   get '/' do
-    'Hello App!'
+    erb :index
   end
 
   get '/links' do
